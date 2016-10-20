@@ -4,7 +4,6 @@
     "description": "Form, database and filesystem abstraction for files",
     "keywords": ["files", "upload", "media"],
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Valentin Ferriere",
@@ -14,15 +13,15 @@
 
     "require": {
         "php": ">=5.3.2",
-        "symfony/form": ">=2.1 | >=2.3",
-        "symfony/validator": ">=2.1 | >=2.3",
+        "symfony/form": ">=2.1",
+        "symfony/validator": ">=2.1",
         "imagine/Imagine": "<=0.5",
         "doctrine/orm": "*",
-        "knplabs/knp-gaufrette-bundle": "v0.1.7",
+        "knplabs/knp-gaufrette-bundle": ">=0.1.7",
         "symfony/finder": ">=2.1"
     },
     
-    "require-dev": {
+    "suggest": {
         "doctrine/mongodb-odm-bundle": "*"
     },
 
